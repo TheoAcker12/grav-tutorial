@@ -2,10 +2,11 @@
 title: Introduction
 taxonomy:
     category: docs
+child_type: docs
 ---
 
-### Chapter Number
+### Chapter 1
 
-# Chapter Title
+# Introduction
 
-Chapter description.
+Get started with using Grav, a simple flat-file content management system.
