@@ -1,6 +1,6 @@
 ---
 title: 'Add a Blog Page'
-media_order: 'add-page.png,add-page-settings.png,added-media.png,after-adding-media.png,blog-page-content.png,media-resizing.png,page-media.png,results.png'
+media_order: 'add-page.png,add-page-settings.png,added-media.png,blog-page-content.png,media-resizing.png,page-media.png'
 taxonomy:
     category:
         - docs
@@ -74,7 +74,7 @@ If the media has been added to the page that is using it, the url can simply be 
 ![alt text](image.png)
 ```
 
-However, some templates will specifically make use of media that is added to the page. The Blog is one such template. At the moment, since no media has been added, the page content is displayed on a purple background. If we add an image, that image will be displayed instead. Since the text is white, we want to find a suitably dark image.
+However, some templates will specifically make use of media that is added to the page. The Blog is one such template. At the moment, since no media has been added, the page content is displayed on a purple background. If we add an image, that image will be displayed instead.
 
 Before we do that, is is important to keep in mind that the resolution of an image can sometimes cause problems. We can prevent these problems by automatically resizing images when we add them. To do this, we will have to configure the Admin plugin.
 
@@ -95,6 +95,10 @@ When you have added and saved the image, your content editor will show it in the
 
 ![image in media box](added-media.png)
 
-The page itself will also look a lot nicer.
+Since the image I chose is rather dark, it doesn't make sense to pair it with dark text. Fortunately, if we go back to the Blog Config tab, there is a Hero Section which deals with this type of image and text combination. If you chose a dark picture like I did, you will want to do add the Hero Class _text-light_ as well.
+
+- screenshot
+
+The page now looks a lot nicer.
 
 - screenshot
