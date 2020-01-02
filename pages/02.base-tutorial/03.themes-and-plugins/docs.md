@@ -1,6 +1,6 @@
 ---
 title: 'Themes and Plugins'
-media_order: 'activate-theme.png,add-plugins.png,add-theme.png,archives-configuration.png,bootstrap4-readme.png,bootstrap4-skeleton-repo.png,install-archives.png,install-bootstrap4.png,install-dependencies.png,plugin-toggles.png,theme-configuration.png'
+media_order: 'activate-theme.png,add-plugins.png,add-theme.png,archives-configuration.png,bootstrap4-readme.png,bootstrap4-skeleton-repo.png,install-archives.png,install-dependencies.png,plugin-toggles.png,theme-configuration.png'
 taxonomy:
     category:
         - docs
@@ -23,13 +23,8 @@ First, we need to choose a theme. To see a list of themes you can add, click on 
 
 There are a lot of available themes. If you click on one of them, you will see a variety of information including a linke to a Readme file, and possibly a link to a demo website. These are both worth examining if you are considering using that theme. [Skeletons](https://getgrav.org/downloads/skeletons) are a particularly helpful resource for understanding themes, although they do not exist for all available themes, as they provide sample pages for you to start out with. More information about working with skeletons can be found in the mini tutorials.
 
-For this tutorial, we will be using the Bootstrap4 theme, so you can go ahead and click install when you find that theme.
+For this tutorial we will actually use the default theme, but if you decide to use a different theme at some point, this is where you will go.
 
-![install bootstrap4](install-bootstrap4.png)
-
-Because Bootstrap4 requires the plugin _Bootstrapper_ to function properly, when you install the theme you will be prompted to install the dependency as well. This is a very helpful feature! There are other plugins that Bootstrap4 makes use of, but _Bootstrapper_ is the only one it absolutely requires.
-
-![Bootstrapper dependency](install-dependencies.png)
 
 Once the installation has finished, you will see the information page for the Bootstrap4 theme. Just under the link to the Readme are a few configuration options. These can modify certain aspects of the theme. For now, we will leave them as they are.
 
