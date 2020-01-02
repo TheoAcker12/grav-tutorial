@@ -1,6 +1,6 @@
 ---
 title: 'Themes and Plugins'
-media_order: 'activate-theme.png,add-plugins.png,add-theme.png,archives-configuration.png,bootstrap4-readme.png,bootstrap4-skeleton-repo.png,install-archives.png,install-dependencies.png,plugin-toggles.png,theme-configuration.png'
+media_order: 'add-plugins.png,add-theme.png,archives-configuration.png,install-archives.png,plugin-toggles.png'
 taxonomy:
     category:
         - docs
@@ -25,16 +25,9 @@ There are a lot of available themes. If you click on one of them, you will see a
 
 For this tutorial we will actually use the default theme, but if you decide to use a different theme at some point, this is where you will go.
 
+Going back to the Themes tab, click on the Quark theme. Here you will see the information page for the theme. There is a link to the Readme file that contains some information about the theme, and just under it are a number of configuration options. These can modify certain aspects of the theme. For now, we will leave them as they are.
 
-Once the installation has finished, you will see the information page for the Bootstrap4 theme. Just under the link to the Readme are a few configuration options. These can modify certain aspects of the theme. For now, we will leave them as they are.
-
-![Bootstrap4 configuration options](theme-configuration.png)
-
-Grav does not automatically switch the theme we are using when we install a new theme, so now we need to activate Bootstrap4.
-
-![activating Bootstrap4](activate-theme.png)
-
-Because each theme defines the templates available to use for your website, activating a theme will always result in a warning prompt that templates you are currently using might not be supported. Of course, since we have not yet edited any of the content, we can ignore this completely.
+- screenshot
 
 ## Plugins
 
@@ -42,13 +35,9 @@ Some themes support certain plugins. Common suspects include Breadcrumbs, Pagina
 
 !!! The **[Plugins chapter](https://learn.getgrav.org/16/plugins)** in the Grav documentation is very technical, but you may want to check out the section on plugins in the **[Adminstration Panel chapter](https://learn.getgrav.org/16/admin-panel/plugins)**.
 
-Unfortunately the Readme for Bootstrap4 does not describe what plugins we can use. However, there is a skeleton package available for Bootstrap4, and this will tell us what plugins are needed to recreate the skeleton as shown. Skeletons can be found [here](https://getgrav.org/downloads/skeletons). There are a lot of skeletons available, but the only one we are interested in is the _Bootstrap4 Site_. Clicking on the _Repo_ button will take us to a Github repository that contains the skeleton and some documentation.
+Unfortunately, while the Readme for Quark is very helpful, it does not describe what plugins it automatically supports. However, we will install several plugins that are commonly supported.
 
-![Bootstrap4 Skeleton Repo](bootstrap4-skeleton-repo.png)
 
-Since we are not currently going over how to use skeletons, the important thing to note is the documentation, specifically:
-
-> NOTE: This skeleton is a modular component for Grav which requires Grav, the Admin, Archives, Bootstrapper, Breadcrumbs, Feed, Form, Login, Pagination, Random, Related Pages, Simple Search and Taxonomy List plugins, and a theme to be installed in order to operate. If you download this skeleton as part of a pre-assembled package from GetGrav.org, you should have everything you need to get started.
 
 We already have Grav and the Bootstrap4 theme, of course. We also already have the Admin, Bootstrapper, Form, and Login plugins. The Bootstrapper plugin was installed as a dependency of the theme, and the others were installed automatically when we installed Grav. To install the others, we will need to go to the _Plugins_ tab on the admin panel and the click the _Add_ button.
 
