@@ -1,6 +1,6 @@
 ---
 title: Setup
-media_order: 'default-directory.png,grav-directory.png,grav-icon.png,install-button.png,install-grav.png,installation-settings.png,no-directory.png,to-admin-panel.png,to-website.png,red-arrow.png,installatron-grav.png'
+media_order: 'default-directory.png,grav-directory.png,install-grav.png,installation-settings.png,no-directory.png,to-admin-panel.png,to-website.png,red-arrow.png,installatron-grav.png'
 taxonomy:
     category:
         - docs
