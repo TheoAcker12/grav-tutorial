@@ -18,9 +18,8 @@ If you are currently affiliated with OU, you have access to a free subdomain of 
 ## Install Grav
 
 Once you have signed in to your dashboard on OU Create/Relcaim Hosting you will either see Grav listed under the Applications section or you can click on All Applications and find Grav from there.
-<div class="row">
 
-![grav icon](./grav-icon.png)
+![install button](./installatron-grav.png)
 
 - Show screenshots of Grav/installation -
 
