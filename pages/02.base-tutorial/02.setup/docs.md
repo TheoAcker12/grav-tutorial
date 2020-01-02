@@ -1,5 +1,6 @@
 ---
 title: Setup
+media_order: 'default-directory.png,grav-directory.png,grav-icon.png,install-button.png,install-grav.png,installation-settings.png,installatron-grav.png,no-directory.png,to-admin-panel.png,to-website.png'
 taxonomy:
     category:
         - docs
@@ -18,6 +19,7 @@ If you are currently affiliated with OU, you have access to a free subdomain of 
 
 Once you have signed in to your dashboard on OU Create/Relcaim Hosting you will either see Grav listed under the Applications section or you can click on All Applications and find Grav from there.
 
+![grav-icon](./grav-icon.png)
 - Show screenshots of Grav/installation -
 
 While most of the default settings for the installation are fine, there are a few we want to change.
