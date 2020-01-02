@@ -1,6 +1,6 @@
 ---
 title: Content
-media_order: 'default-pages.png,default-website.png,remove-typography.png'
+media_order: 'default-pages.png,remove-typography.png'
 taxonomy:
     category:
         - docs
