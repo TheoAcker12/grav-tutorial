@@ -37,9 +37,7 @@ Some themes support certain plugins. Common suspects include Breadcrumbs, Pagina
 
 Unfortunately, while the Readme for Quark is very helpful, it does not describe what plugins it automatically supports. However, we will install several plugins that are commonly supported.
 
-
-
-We already have Grav and the Bootstrap4 theme, of course. We also already have the Admin, Bootstrapper, Form, and Login plugins. The Bootstrapper plugin was installed as a dependency of the theme, and the others were installed automatically when we installed Grav. To install the others, we will need to go to the _Plugins_ tab on the admin panel and the click the _Add_ button.
+To start with, we will need to go to the _Plugins_ tab on the admin panel and the click the _Add_ button.
 
 ![add plugin](add-plugins.png)
 
