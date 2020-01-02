@@ -1,6 +1,6 @@
 ---
 title: Setup
-media_order: 'default-directory.png,grav-directory.png,grav-icon.png,install-button.png,install-grav.png,installation-settings.png,installatron-grav.png,no-directory.png,to-admin-panel.png,to-website.png'
+media_order: 'default-directory.png,grav-directory.png,grav-icon.png,install-button.png,install-grav.png,installation-settings.png,installatron-grav.png,no-directory.png,to-admin-panel.png,to-website.png,red-arrow.png'
 taxonomy:
     category:
         - docs
@@ -18,7 +18,17 @@ If you are currently affiliated with OU, you have access to a free subdomain of 
 ## Install Grav
 
 Once you have signed in to your dashboard on OU Create/Relcaim Hosting you will either see Grav listed under the Applications section or you can click on All Applications and find Grav from there.
-
+<div class="row">
+   <div class="column">
+       <img src="./grav-icon.png" alt="grav icon">
+   </div>
+   <div class="column">
+       <img src="./red-arrow.png" alt="red arrow">
+   </div>
+   <div class="column">
+       <img src="./install-button.png" alt="install button">
+   </div>
+</div>
 ![grav icon](./grav-icon.png) ![install button](./install-button.png)
 - Show screenshots of Grav/installation -
 
