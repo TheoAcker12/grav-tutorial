@@ -1,6 +1,6 @@
 ---
 title: 'Add a Blog Page'
-media_order: 'add-page.png,add-page-settings.png,added-media.png,blog-page-content.png,media-resizing.png,page-media.png'
+media_order: 'add-page.png,add-page-settings.png,added-media.png,blog-page-content.png,media-resizing.png,page-media.png,after-adding-media.png,blog-config.png,expert-mode.png,hero-image-settings.png,page-editor.png,result-blog.png'
 taxonomy:
     category:
         - docs
@@ -21,7 +21,7 @@ We have to choose a title for our page, as well as what template to use. The fol
 
 After you click the _Save_ button at the top right, the page editor will look like this.
 
-- screenshot
+![page editor](page-editor.png)
 
 1. **Title**. This is automatically filled with the title we chose. We can change it at any time if we want a different title.
 2. **Markdown Editor**. This is where the content of the page goes. Grav uses markdown to format text. The Grav documentation includes a very handy [markdown reference](https://learn.getgrav.org/16/content/markdown). There are also markdown editors you can use instead if you prefer. I found that once I got used to markdown I had no problems with the built-in Grav editor, but a lot of this will come down to personal preference.
@@ -46,19 +46,19 @@ The blog page is not supposed to take a lot of content - really just a heading a
 
 After saving, we can take a look at the Blog Config tab.
 
-- screenshot
+![blog config tab](blog-config.png)
 
 There are a lot of options here. Fortunately, the default settings are usually pretty good, so all you need to do is glance over this tab for now. Some of the settings define the collection of blog posts. Some others provide settings for enabled plugins.
 
 If we switch to expert mode, we can see how these settings are provided in the frontmatter. Although we will not have to edit them while in expert mode, this will help demystify the frontmatter, which may help in the future if we come across something we cannot modify from the provided user interface.
 
-- screenshot of expert mode
+![expert mode](expert-mode.png)
 
 Now we only have Content and Options tabs. On the Content tab, the Title section has been replaced with a Frontmatter section, which defines the title and some of the options we saw on the Blog Config page. You may notice (especially if you took a look at the Options and Advanced tabs) that not all of the settings are listed here. If a setting is not explicitly defined in the frontmatter, Grav will automatically use the default.
 
 Since the normal editing mode will be much more useful to us in general, we can go ahead and switch back. If we navigate to our website, it should look like this:
 
-- screenshot
+![resulting website](result-blog.png)
 
 ## Adding Media
 
@@ -97,8 +97,8 @@ When you have added and saved the image, your content editor will show it in the
 
 Since the image I chose is rather dark, it doesn't make sense to pair it with dark text. Fortunately, if we go back to the Blog Config tab, there is a Hero Section which deals with this type of image and text combination. If you chose a dark picture like I did, you will want to do add the Hero Class _text-light_ as well.
 
-- screenshot
+![blog config hero section](hero-image-settings.png)
 
 The page now looks a lot nicer.
 
-- screenshot
+![better webpage](after-adding-media.png)
