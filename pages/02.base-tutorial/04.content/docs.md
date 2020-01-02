@@ -8,7 +8,7 @@ visible: true
 
 ---
 
-Content will be added through the Pages tab
+Content will be added through the Pages tab on the admin panel.
 - note the current pages
 - go to the website itself to see what it looks like
 
