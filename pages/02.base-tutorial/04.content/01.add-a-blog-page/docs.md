@@ -1,6 +1,6 @@
 ---
 title: 'Add a Blog Page'
-media_order: 'add-page.png,add-page-settings.png,added-media.png,after-adding-media.png,blog-list-config.png,blog-page-content.png,expert-mode.png,media-resizing.png,page-media.png,results.png'
+media_order: 'add-page.png,add-page-settings.png,added-media.png,after-adding-media.png,blog-page-content.png,media-resizing.png,page-media.png,results.png'
 taxonomy:
     category:
         - docs
@@ -52,13 +52,13 @@ There are a lot of options here. Fortunately, the default settings are usually p
 
 If we switch to expert mode, we can see how these settings are provided in the frontmatter. Although we will not have to edit them while in expert mode, this will help demystify the frontmatter, which may help in the future if we come across something we cannot modify from the provided user interface.
 
-![expert mode](expert-mode.png)
+- screenshot of expert mode
 
-Now we only have Content and Options tabs. On the Content tab, the Title section has been replaced with a Frontmatter section, which defines the title and some of the options we saw on the Blog List page. You may notice (especially if you took a look at the Options and Advanced tabs) that not all of the settings are listed here. If a setting is not explicitly defined in the frontmatter, Grav will automatically use the default.
+Now we only have Content and Options tabs. On the Content tab, the Title section has been replaced with a Frontmatter section, which defines the title and some of the options we saw on the Blog Config page. You may notice (especially if you took a look at the Options and Advanced tabs) that not all of the settings are listed here. If a setting is not explicitly defined in the frontmatter, Grav will automatically use the default.
 
 Since the normal editing mode will be much more useful to us in general, we can go ahead and switch back. If we navigate to our website, it should look like this:
 
-![resulting website](results.png)
+- screenshot
 
 ## Adding Media
 
@@ -97,4 +97,4 @@ When you have added and saved the image, your content editor will show it in the
 
 The page itself will also look a lot nicer.
 
-![page with media](after-adding-media.png)
+- screenshot
