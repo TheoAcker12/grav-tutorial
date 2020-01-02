@@ -1,6 +1,6 @@
 ---
 title: Setup
-media_order: 'default-directory.png,grav-directory.png,install-grav.png,installation-settings.png,no-directory.png,to-admin-panel.png,to-website.png,red-arrow.png,installatron-grav.png'
+media_order: 'default-directory.png,grav-directory.png,install-grav.png,installation-settings.png,no-directory.png,to-admin-panel.png,to-website.png,installatron-grav.png,admin-login.png,check-for-updates.png,fully-updated.png,update.png,update-grav.png'
 taxonomy:
     category:
         - docs
@@ -61,14 +61,24 @@ The second link will take you to the admin panel.
 
 When you click the link to the admin panel, you will be prompted to log in with the username and password you chose in the installation settings.
 
-- screenshot
+![admin panel login](admin-login.png)
 
 !!! The Grav documentation has a whole chapter dedicated to the [administration panel](https://learn.getgrav.org/16/admin-panel). It is worth skimming, at the very least.
 
-Before we do anything else, we need to make sure that Grav is up-to-date.
+Before we do anything else, we need to make sure that Grav is up-to-date. On your dashboard, click the _check for updates_ button.
 
+![check for updates button](check-for-updates.png)
 
-Before choosing a theme and creating content you should make sure that Grav is up-to-date. Most likely you will need to update plugins and Grav itself. There should be a button on the dashboard to check for updates, but if you have any issues you can check the [documentation](https://learn.getgrav.org/16/admin-panel/dashboard).
+In this case, I have to do two updates. First, Grav itself has been updated to a new version. It is essential to always keep Grav updated to the latest version to minimize potential errors.
 
-- walk through updating
-- screenshots
+![update grav](update-grav.png)
+
+When that update is complete, there are still normal updates required. Several of the packages (themes or plugins) that were automatically installed are not on the latest version. These updates are also important.
+
+![update other packages](update.png)
+
+When that has finished, the dashboard will show that everything is up-to-date.
+
+![fully updated dashboard](fully-updated.png)
+
+If you run into any issues using the admin panel, or just want to know more, you can check out the [documentation](https://learn.getgrav.org/16/admin-panel).
