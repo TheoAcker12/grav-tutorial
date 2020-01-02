@@ -1,5 +1,6 @@
 ---
 title: Content
+media_order: 'default-pages.png,default-website.png,remove-typography.png'
 taxonomy:
     category:
         - docs
@@ -8,17 +9,14 @@ visible: true
 
 ---
 
-Content will be added through the Pages tab on the admin panel.
-- note the current pages
-- go to the website itself to see what it looks like
+Content will be added through the Pages tab on the admin panel. The Grav installation starts us out with two default pages: Home and Typography.
 
-Create a blog page
-- make sure to switch to expert editor mode to take a look at the frontmatter
-- include resources for working with markdown
-- note how it appears in the navigation
+![default pages](default-pages.png)
 
-Create a couple of blog items
+If we open a new tab showing our website, we can see that the default looks pretty boring.
 
-Add media
+![default website](default-website.png)
 
-Note to try out mini tutorials
+To start, we will remove the Typography page on the admin panel using the blue X. We will replace the home page in the mini tutorial about modular pages.
+
+![remove typography page](remove-typography.png)
