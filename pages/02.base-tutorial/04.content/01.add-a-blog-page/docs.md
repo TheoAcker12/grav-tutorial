@@ -1,6 +1,6 @@
 ---
 title: 'Add a Blog Page'
-media_order: 'add-page.png,add-page-settings.png,added-media.png,after-adding-media.png,anatomy-of-content-page.png,blog-list-config.png,blog-page-content.png,expert-mode.png,media-resizing.png,page-media.png,results.png'
+media_order: 'add-page.png,add-page-settings.png,added-media.png,after-adding-media.png,blog-list-config.png,blog-page-content.png,expert-mode.png,media-resizing.png,page-media.png,results.png'
 taxonomy:
     category:
         - docs
@@ -17,15 +17,18 @@ We have to choose a title for our page, as well as what template to use. The fol
 
 ![add page settings](add-page-settings.png)
 
-## The Content Editor
+## The Page Editor
 
-![content editor](anatomy-of-content-page.png)
+After you click the _Save_ button at the top right, the page editor will look like this.
+
+- screenshot
 
 1. **Title**. This is automatically filled with the title we chose. We can change it at any time if we want a different title.
 2. **Markdown Editor**. This is where the content of the page goes. Grav uses markdown to format text. The Grav documentation includes a very handy [markdown reference](https://learn.getgrav.org/16/content/markdown). There are also markdown editors you can use instead if you prefer. I found that once I got used to markdown I had no problems with the built-in Grav editor, but a lot of this will come down to personal preference.
-3. **Tabs**. All pages will have Content, Options, and Advanced tabs. Options and Advanced make it easy to change various settings for the page, although the defaults are often perfectly fine. Some pages will also have a special tab. For the _Blog_ page it is the Blog List tab. We will take a closer look at this in a moment.
+3. **Tabs**. All pages will have Content, Options, and Advanced tabs. Options and Advanced make it easy to change various settings for the page, although the defaults are often perfectly fine. Some pages will also have a special tab. For the _Blog_ page it is the Blog Config tab. We will take a closer look at this in a moment.
 4. **Editor Mode**. By default, the content editor is in Normal mode. Putting it in expert mode will reduce the number of tabs and configurable options, but will allow us to directly edit the "frontmatter" of the page. Essentially, the frontmatter is a list of settings written in a special format at the top of the page. Using the normal editor mode obscures this by providing a user interface for setting these options. Occasionally, however, we may want to switch to expert mode in order to set an option that is not available in the user interface.
 5. **Save Button**. This is the most important button on the page! Remember to save early and save often. You will also have noticed this button on the plugin and theme configuration pages. Any time we make a change, we need to save it by clicking this.
+6. **Page Media**. This is where you can add media that you want to embed in your page.
 
 ## Adding Some Content
 
@@ -41,11 +44,11 @@ The blog page is not supposed to take a lot of content - really just a heading a
 
 ## Testing Expert Mode
 
-After saving, we can take a look at the Blog List tab.
+After saving, we can take a look at the Blog Config tab.
 
-![blog list tab](blog-list-config.png)
+- screenshot
 
-The first four options (Items, Max Item Count, Order By, and Order) define the collection of blog posts this page will show. Pagination provides settings for the Pagination plugin, and Feed count and Feed description provide settings for the Feed plugin. None of these settings need to be changed.
+There are a lot of options here. Fortunately, the default settings are usually pretty good, so all you need to do is glance over this tab for now. Some of the settings define the collection of blog posts. Some others provide settings for enabled plugins.
 
 If we switch to expert mode, we can see how these settings are provided in the frontmatter. Although we will not have to edit them while in expert mode, this will help demystify the frontmatter, which may help in the future if we come across something we cannot modify from the provided user interface.
 
