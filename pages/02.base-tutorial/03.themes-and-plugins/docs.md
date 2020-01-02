@@ -1,6 +1,6 @@
 ---
 title: 'Themes and Plugins'
-media_order: 'add-plugins.png,add-theme.png,archives-configuration.png,install-archives.png'
+media_order: 'add-plugins.png,add-theme.png,archives-configuration.png,install-archives.png,theme-config.png,toggle-plugins.png'
 taxonomy:
     category:
         - docs
@@ -27,7 +27,7 @@ For this tutorial we will actually use the default theme, but if you decide to u
 
 Going back to the Themes tab, click on the Quark theme. Here you will see the information page for the theme. There is a link to the Readme file that contains some information about the theme, and just under it are a number of configuration options. These can modify certain aspects of the theme. For now, we will leave them as they are.
 
-- screenshot
+![Quark theme configuration](theme-config.png)
 
 ## Plugins
 
@@ -48,3 +48,5 @@ Since there are a lot of plugins, it is easiest to search for a plugin you know 
 When the installation has finished, the admin panel will take us to the information and configuration page for the plugin, just like it did when we installed the theme. Again, you will see both a link to the Readme for the plugin and the various configuration options available. Now we have to install the Breadcrumbs, Feed, Pagination, Random, Related Pages, SimpleSearch, and Taxonomy List plugins. These are installed exactly the same way that we installed Archives.
 
 Those are quite a few plugins, especially if you are not sure what they do yet. One easy option for experimenting with how they affect the website and theme interactions is to toggle the plugins on and off. However, we will need to add content to the website before that does anything useful for us.
+
+![plugin toggles](toggle-plugins.png)
