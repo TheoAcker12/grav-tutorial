@@ -1,5 +1,5 @@
 ---
-title: Pages
+title: 'Basic Theme Customization'
 taxonomy:
     category:
         - docs
