@@ -10,6 +10,8 @@ visible: true
 
 Themes and plugins are both very important to the website's functionality. You can choose one theme, which will define the look and feel of your site. Your theme may also interact with various plugins, like adding a search bar if SimpleSearch is enabled. There is a wide variety of plugins, each of which add some sort of function to your site. The admin panel is actually a plugin itself.
 
+- better explanation of themes and plugins?
+
 ! When going to add themes or plugins, if you get a message that you cannot connect to the gpm, you probably need to update Grav
 
 ## Themes

@@ -1,9 +1,11 @@
 ---
-title: Configuration
+title: 'Understanding Themes'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Your page content goes here.
+---
+
+More info about themes?

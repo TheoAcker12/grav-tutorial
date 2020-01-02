@@ -1,9 +1,11 @@
 ---
-title: 'Starting Over'
+title: 'Modular Pages'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Your page content goes here.
+---
+
+- Build a sample modular page

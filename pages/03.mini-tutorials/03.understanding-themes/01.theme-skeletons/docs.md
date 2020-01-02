@@ -23,3 +23,9 @@ Links to demo websites:
 * [Open Publishing Space](http://demo.hibbittsdesign.org/grav-open-publishing-quark/)
 
 Also discuss how to manually set up skeleton after installation.
+- configuration
+- pages
+- theme
+- plugins
+- modifying the pages to suit your needs
+- may want to switch to expert mode to take a look at the frontmatter
