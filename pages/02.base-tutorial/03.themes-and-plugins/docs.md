@@ -1,6 +1,6 @@
 ---
 title: 'Themes and Plugins'
-media_order: 'add-plugins.png,add-theme.png,archives-configuration.png,install-archives.png,theme-config.png,themes-tab.png'
+media_order: 'themes-tab.png,add-theme.png,theme-config.png,add-plugins.png,install-archives.png'
 taxonomy:
     category:
         - docs
