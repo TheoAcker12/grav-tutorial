@@ -31,7 +31,7 @@ You can choose instead to install Grav directly in your home folder by leaving t
 
 ![no installation directory](./no-directory.png)
 
-Or you can change the name of the folder. For this tutorial, we will name our folder grav.
+Or you can change the name of the folder. For this tutorial, we will name our folder grav-demo.
 
 ![named installation directory](./grav-directory.png)
 

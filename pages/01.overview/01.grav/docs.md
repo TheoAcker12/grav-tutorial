@@ -20,17 +20,13 @@ If you have heard of Wordpress, Grav is very similar. It streamlines website bui
 
 ## Additional Resources
 
-The most important resources are the Grav documentation and the markdown syntax section it includes, as Grav content is written in markdown.
-- [Grav](https://learn.getgrav.org/16)
-- [Markdown](https://learn.getgrav.org/16/content/markdown)
+These are listed in order from most important/least complicated to least important/most complicated.
 
-HTML (Hypter Text Markup Language) and CSS (Cascading Style Sheets) define the structure and style of webpages. Depending on what you do, it may be helpful to gain some familiarity with them. W3Schools has extensive reference and tutorial materials on both.
-- [HTML](https://www.w3schools.com/html/default.asp)
-- [CSS](https://www.w3schools.com/css/default.asp)
-
-JavaScript is the programming language of HTML and the web, and PHP is a server scripting language. Essentially, both are programming languages that can be used to add dynamic and interactive behavior to a website. It is not necessary to learn either in order to work with Grav, but if you want to W3Schools also has excellent material.
-- [Javascript](https://www.w3schools.com/js/default.asp)
-- [PHP](https://www.w3schools.com/php/default.asp)
-
-Twig is a templating engine for PHP. Grav templates are written using HTML and Twig. If you decide to do any templating, you can use the much simpler Twig syntax instead of learning PHP.
-- [Twig](https://twig.symfony.com/doc/2.x/)
+- **[Grav.](https://learn.getgrav.org/16)** Naturally this is the most important documentation.
+- **[Markdown.](https://learn.getgrav.org/16/content/markdown)** Grav content is written using Markdown. If you have seen HTML, Markdown is a lot simpler, while still providing a lot of versatility. The Grav documentation includes a helpful page on Markdown syntax.
+- **[YAML](https://learn.getgrav.org/16/advanced/yaml)** is how Grav defines various configuration settings for the system, website, themes, plugins, and individual plugins. Much of this is hidden with the user interface of the admin panel, but occasionally it may be useful to interact directly with the YAML. The Link above will take you to the Grav documentation page for YAML syntax. Arguably [this page](https://learn.getgrav.org/16/basics/grav-configuration) about Grav configuration will be more helpful/give you a better idea of how YAML is used.
+- **[HTML](https://www.w3schools.com/html/default.asp)** (Hyper Text Markup Language) defines the structure of webpages. Grav will accept HTML in place of Markdown, although you probably will not have much need to use it directly in page content. HTML can be particularly useful for understanding Grav templates and for modifying theme styles. It is entirely possible to avoid HTML entirely while using Grav, however. The link above will take you to W3Schools, an excellent source of reference and tutorial materials for web languages.
+- **[CSS](https://www.w3schools.com/css/default.asp)** (Cascading Style Sheets) describes how HTML elements are displayed on screen. This includes colors, fonts, and much more. With a _very_ basic knowledge of HTML and CSS, you can add some simple customization to your website. W3Schools is an excellent resource for learning or looking up information about CSS.
+- **[Twig](https://twig.symfony.com/doc/2.x/)** is a templating engine for PHP, which is a programming language. Grav templates are written using HTML and Twig, so if you decide to do any templating, you can rely on the much simpler Twig syntax instead of learning PHP.
+- **[JavaScript](https://www.w3schools.com/js/default.asp)** is the programming language of HTML and the web. Grav templates can make use of JavaScript to add dynamic and interactive behavior to your website. It is not necessary to learn this in order to work with Grav, but if you want to, W3Schools is the best place to start.
+- **[PHP](https://www.w3schools.com/php/default.asp)** Like JavaScript, PHP is a programming language (specifically a "server scripting language") that can add dynamic and interactive behavior to your website and can be learned through W3Schools. Since Grav uses Twig to provide PHP capabilities in a simpler format, this is the least likely to be useful to you.
