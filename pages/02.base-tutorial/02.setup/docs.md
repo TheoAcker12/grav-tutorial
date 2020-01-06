@@ -1,6 +1,6 @@
 ---
 title: Setup
-media_order: 'install-grav.png,installation-settings.png,installatron-grav.png,admin-login.png,check-for-updates.png,fully-updated.png,update.png,update-grav.png,default-directory.png,grav-directory.png,no-directory.png'
+media_order: 'installatron-grav.png,default-directory.png,no-directory.png,grav-directory.png,installation-settings.png,install-grav.png,to-website.png,to-admin-panel.png,admin-login.png,check-for-updates.png,update-grav.png,update.png,fully-updated.png'
 taxonomy:
     category:
         - docs
@@ -23,7 +23,7 @@ Once you have signed in to your dashboard on OU Create/Relcaim Hosting you will 
 
 While most of the default settings for the installation are fine, there are a few we want to change.
 
-By default, the installation will want to put Grav in a folder (directory) called cms.
+By default, the installation will want to put Grav in a folder (directory) called _cms_.
 
 ![default installation directory](./default-directory.png)
 
@@ -31,7 +31,7 @@ You can choose instead to install Grav directly in your home folder by leaving t
 
 ![no installation directory](./no-directory.png)
 
-Or you can change the name of the folder. For this tutorial, we will name our folder grav-demo.
+Or you can change the name of the folder. For this tutorial, we will name our folder _grav-demo_.
 
 ![named installation directory](./grav-directory.png)
 
@@ -41,7 +41,7 @@ We also need to set the website name, as well as our full name, email address, u
 
 ![settings](./installation-settings.png)
 
-Finally, the only other setting we might consider changing here is the skeleton package. The default, GravCor + Admin, is not bad, but depending on what we want to do, a skeleton package might make setting up the website easier. For this tutorial we will stick with the default, but you can get more information in the mini tutorial on skeletons.
+Finally, the only other setting we might consider changing here is the skeleton package. The default, GravCor + Admin, is not bad, but depending on what we want to do, a skeleton package might make setting up the website easier. For this tutorial we will stick with the default. You can learn more about skeletons in the following [mini-tutorial](http://grav.ds-tutorials.oucreate.com/mini-tutorials/understanding-themes/theme-skeletons).
 
 All we need to do now is press install.
 
@@ -49,9 +49,7 @@ All we need to do now is press install.
 
 ## Check out the admin panel
 
-Familiarity with the admin panel is important, as this is where we will spend most of our time building our website. You can access the panel by going to `NOCLIP your-website-url/admin`. You will be directed to log in using the username and password you chose when installing Grav.
-
-If you go to your grav application on the Reclaim Hosting/OU Create dashboard after installation, you will see links to access both your website and the admin panel. The first link will take you directly to your website.
+Familiarity with the admin panel is important, as this is where we will spend most of our time building our website. You can access the panel directly by going to `NOCLIP your-website-url/admin`, or you can go to your grav application on the OU Create/Reclaim Hosting dashboard after installation. You will see links to access both your website and the admin panel. The first link will take you directly to your website.
 
 ![link to website](to-website.png)
 

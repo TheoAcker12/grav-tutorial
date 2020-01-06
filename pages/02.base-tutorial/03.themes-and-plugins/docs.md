@@ -9,21 +9,25 @@ visible: true
 
 ---
 
-Themes and plugins are both very important. Every website has one theme, which defines how the site looks and feels. The theme may also interact with various plugins, such as by adding a search bar if the plugin _SimpleSearch_ is enabled. There are many available plugins, each of which add some type of functionality to your website. In fact, the admin panel we are using is actually a plugin itself.
+Themes and plugins are both very important. Every website has one theme, which defines how the site looks and feels. The theme may also interact with various plugins, such as by adding a search bar if the plugin _SimpleSearch_ is enabled. There are many available plugins, each of which adds some type of functionality to your website. In fact, the admin panel we are using is actually a plugin itself.
 
 ! When going to add themes or plugins, if you get a message that you cannot connect to the gpm, you probably need to update Grav
 
 ## Themes
 
-First, we need to choose a theme. To see a list of themes you can add, click on the _Add_ button at the top right of the Themes section on the admin panel.
+First, we need to choose a theme. We will start by going to the _Themes_ tab on the administration panel.
+
+![themes-tab](themes-tab.png)
+
+To see a list of themes we can add, click on the _Add_ button at the top right.
 
 ![add theme button](add-theme.png)
 
 !!! The **[Themes chapter](https://learn.getgrav.org/16/themes)** in the Grav documentation is very technical, but you may want to check out the section on themes in the **[Adminstration Panel chapter](https://learn.getgrav.org/16/admin-panel/themes)**.
 
-There are a lot of available themes. If you click on one of them, you will see a variety of information including a linke to a Readme file, and possibly a link to a demo website. These are both worth examining if you are considering using that theme. [Skeletons](https://getgrav.org/downloads/skeletons) are a particularly helpful resource for understanding themes, although they do not exist for all available themes, as they provide sample pages for you to start out with. More information about working with skeletons can be found in the mini tutorials.
+There are a lot of available themes. If you click on one of them, you will see a variety of information including a linke to a Readme file, and possibly a link to a demo website. These are both worth examining if you are considering using that theme. [Skeletons](https://getgrav.http://grav.ds-tutorials.oucreate.com/mini-tutorials/understanding-themes/theme-skeletons/downloads/skeletons) can also be a helpful resource for understanding themes, but they will be covered in the mini tutorials.
 
-For this tutorial we will actually use the default theme, but if you decide to use a different theme at some point, this is where you will go.
+For this tutorial we will actually use the default theme, so we can go back to the Themes tab without installing anything.
 
 Going back to the Themes tab, click on the Quark theme. Here you will see the information page for the theme. There is a link to the Readme file that contains some information about the theme, and just under it are a number of configuration options. These can modify certain aspects of the theme. For now, we will leave them as they are.
 
