@@ -9,7 +9,7 @@ visible: true
 
 ---
 
-Content will be added through the Pages tab on the admin panel. The Grav installation starts us out with two default pages: Home and Typography.
+Content will be added through the _Pages_ tab on the admin panel. The Grav installation starts us out with two default pages: _Home_ and _Typography_.
 
 ![default pages](default-pages.png)
 
@@ -17,6 +17,6 @@ If we open a new tab showing our website, we can see that the default looks pret
 
 ![default website](default-website.png)
 
-To start, we will remove the Typography page on the admin panel using the blue X. We will replace the home page in the mini tutorial about modular pages.
+To start, we will remove the _Typography_ page on the admin panel using the blue X. We will replace the home page in the [mini tutorial](http://grav.ds-tutorials.oucreate.com/mini-tutorials/modular-pages) about modular pages.
 
 ![remove typography page](remove-typography.png)
