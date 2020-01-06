@@ -1,6 +1,6 @@
 ---
 title: 'Add a Blog Page'
-media_order: 'add-page.png,add-page-settings.png,page-editor.png,blog-page-content.png,header-demo.png,blog-config.png,expert-mode.png,result-blog.png,media-resizing.png,page-media.png,added-media.png,hero-image-settings.png,after-adding-media.png'
+media_order: 'add-page.png,add-page-settings.png,page-editor.png,blog-page-content.png,header-demo.png,blog-config.png,expert-mode.png,result-blog.png,media-resizing.png,page-media.png,hero-image-settings.png,after-adding-media.png'
 taxonomy:
     category:
         - docs
