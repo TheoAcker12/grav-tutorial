@@ -27,19 +27,19 @@ To see a list of themes we can add, click on the _Add_ button at the top right.
 
 There are a lot of available themes. If you click on one of them, you will see a variety of information including a linke to a Readme file, and possibly a link to a demo website. These are both worth examining if you are considering using that theme. [Skeletons](https://getgrav.http://grav.ds-tutorials.oucreate.com/mini-tutorials/understanding-themes/theme-skeletons/downloads/skeletons) can also be a helpful resource for understanding themes, but they will be covered in the mini tutorials.
 
-For this tutorial we will actually use the default theme, so we can go back to the Themes tab without installing anything.
+For this tutorial we will actually use the default theme, so we can go back to the _Themes_ tab without installing anything.
 
-Going back to the Themes tab, click on the Quark theme. Here you will see the information page for the theme. There is a link to the Readme file that contains some information about the theme, and just under it are a number of configuration options. These can modify certain aspects of the theme. For now, we will leave them as they are.
+Clicking on the _Quark_ theme will show us the information page for the theme. There is a link to the Readme file that contains more detailed information, and right under it are a number of configuration options for various aspects of the theme. For now, we will leave them as they are.
 
 ![Quark theme configuration](theme-config.png)
 
 ## Plugins
 
-Some themes support certain plugins. Common suspects include Breadcrumbs, Pagination, SimpleSearch, Taxonomy List, and TNT Search. Ideally your chosen theme will have a detailed Readme that lists supported plugins. If it does not, I describe how to manually find out which plugins the theme uses in the mini tutorials. There are also many plugins that do not require theme support. The best way to find out how to use a plugin is to look through the provided Readme.
+Some themes support certain plugins. Common suspects include _Breadcrumbs_, _Pagination_, _SimpleSearch_, _Taxonomy List_, and _TNT Search_. Ideally your chosen theme will have a detailed Readme that lists supported plugins. If it does not, I describe how to manually find out which plugins the theme uses in the following [mini tutorial](http://grav.ds-tutorials.oucreate.com/mini-tutorials/understanding-plugins/theme-plugins). There are also many plugins that do not require theme support. The best way to find out how to use a plugin is to look through the provided Readme.
 
 !!! The **[Plugins chapter](https://learn.getgrav.org/16/plugins)** in the Grav documentation is very technical, but you may want to check out the section on plugins in the **[Adminstration Panel chapter](https://learn.getgrav.org/16/admin-panel/plugins)**.
 
-Unfortunately, while the Readme for Quark is very helpful, it does not describe what plugins it automatically supports. However, we will install several plugins that are commonly supported.
+Unfortunately, while the Readme for _Quark_ is very helpful, it does not describe what plugins it automatically supports. However, we will install several of the most commonly supported plugins.
 
 To start with, we will need to go to the _Plugins_ tab on the admin panel and the click the _Add_ button.
 
@@ -49,7 +49,7 @@ Since there are a lot of plugins, it is easiest to search for a plugin you know 
 
 ![install archives plugin](install-archives.png)
 
-When the installation has finished, the admin panel will take us to the information and configuration page for the plugin, just like it did when we installed the theme. Again, you will see both a link to the Readme for the plugin and the various configuration options available. Now we have to install the Breadcrumbs, Feed, Pagination, Random, Related Pages, SimpleSearch, and Taxonomy List plugins. These are installed exactly the same way that we installed Archives.
+When the installation has finished, the admin panel will take us to the information and configuration page for the plugin, just like it did when we installed the theme. Again, you will see both a link to the Readme for the plugin and the various configuration options available. Now we have to install the _Breadcrumbs_, _Feed_, _Pagination_, _Random_, _Related Pages_, _SimpleSearch_, and _Taxonomy List_ plugins. These are installed exactly the same way that we installed _Archives_.
 
 Those are quite a few plugins, especially if you are not sure what they do yet. One easy option for experimenting with how they affect the website and theme interactions is to toggle the plugins on and off. However, we will need to add content to the website before that does anything useful for us.
 
