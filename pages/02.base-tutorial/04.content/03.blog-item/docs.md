@@ -1,5 +1,5 @@
 ---
-title: 'Add a Blog Item'
+title: 'Blog Item'
 media_order: 'add-first-blog-item.png,add-tag.png,added-post.png,added-tags.png,adding-media.png,after-summary-delimiter.png,first-item-content.png,summary-delimiter.png'
 taxonomy:
     category:
@@ -9,10 +9,11 @@ visible: true
 
 ---
 
-- Not a blog without blog items!
-- Can add a blog item much the same way we added a blog page
+No blog would be complete without posts. The template for a blog post is the _Blog Item_ template. We can create a new page for our post the same way we added a blog page.
 
-![adding a blog item](add-first-blog-item.png)
+![adding a blog item](add-post.png)
+
+
 
 - template is Item now, not Blog
 - paret shouldn't be the root folder, but the Blog page we just made
