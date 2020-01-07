@@ -1,5 +1,6 @@
 ---
 title: Media
+media_order: 'added-media.png,after-adding-media.png,hero-image-settings.png,media-resizing.png,page-media.png'
 taxonomy:
     category:
         - docs
@@ -26,7 +27,7 @@ When we have added and saved an image, the content editor will show it in the me
 
 ![image in media box](added-media.png)
 
-Since the image I chose is rather dark, it does not make sense to pair it with dark text. Fortunately, if we go back to the _Blog Config_ tab there is a Hero Section which deals with this type of image and text combination. If you chose a dark picture like I did, you will want to do add the Hero Class _text-light_ as well.
+Since the image I chose is rather dark, it does not make sense to pair it with dark text. Fortunately, if we go back to the _Blog Config_ tab there is a Hero Section which deals with this type of image and text combination. If you chose a dark picture like I did, you will want to do add the Hero Class _text-light_ as well. We can also explicitly set the image we added as the hero image to be used by the template, although it should automatically use the first image it finds.
 
 ![blog config hero section](hero-image-settings.png)
 
@@ -34,6 +35,9 @@ The page now looks a lot nicer.
 
 ![better webpage](after-adding-media.png)
 
+<!--
+
+Not sure if this should be included or not.
 
 ## Admin Panel Image Issues
 
@@ -43,8 +47,7 @@ After clicking on the _Plugins_ tab and selecting the _Admin_ plugin, scroll thr
 
 ![media resizing](media-resizing.png)
 
-Remember to click _Save_ when you are finished!
-
+Remember to click _Save_ when you are finished! -->
 
 
 
