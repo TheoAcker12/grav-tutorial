@@ -1,6 +1,6 @@
 ---
 title: 'Blog Item'
-media_order: 'add-first-blog-item.png,add-tag.png,added-post.png,added-tags.png,adding-media.png,after-summary-delimiter.png,first-item-content.png,summary-delimiter.png'
+media_order: 'add-tag.png,added-post.png,added-tags.png,adding-media.png,after-summary-delimiter.png,first-item-content.png,summary-delimiter.png,setting-hero-image.png,item-without-image.png,item-with-image.png'
 taxonomy:
     category:
         - docs
@@ -9,20 +9,57 @@ visible: true
 
 ---
 
-No blog would be complete without posts. The template for a blog post is the _Blog Item_ template. We can create a new page for our post the same way we added a blog page.
+## Adding the Page
+
+No blog would be complete without posts. The template for a blog post is the _Item_ template. We can create a new page for our post the same way we added a blog page.
 
 ![adding a blog item](add-post.png)
 
+I decided to name the first post _Grav_ since we are talking about how to use Grav. As before, the folder name is automatically generated, but this time we need to change the parent page from `NOCLIP \ (root)` to `NOCLIP (blog) Blog`. If we added the page to the root of our website it would show up as another page like _Home_ and _Typography_. Adding it to _Blog_ makes it a sub-page of that page, and because the _Blog_ template references a collection of its children (sub-pages), our new page will be displayed on our blog.
 
+We also need to change the page template from _Blog_ to _Item_ and to set the page not to be visible. Visibility determines whether or not the page is displayed in the navigation. If we set the post to be visible, then mousing over the word _Blog_ in our navigation bar will display a dropdown menu we can use to access the page.
 
-- template is Item now, not Blog
-- paret shouldn't be the root folder, but the Blog page we just made
+![navigation dropdown menu](navigation-dropdown.png)
 
-- add some content to the item
-- I just took this from the tutorial
-- It provides some markdown examples with links, lists, quotes, and notices
+The dropdown seems relatively unobtrusive with just the one post, but if we continue adding posts it will quickly grow out of hand. Instead, we want to access our pages through the main blog page. Making the page invisible will not prevent it from showing up there.
 
-![adding content](first-item-content.png)
+## Adding Content
+
+Since the title of our first post is _Grav_, we should probably write something about Grav in the content. We can start by using the markdown syntax for a header.
+
+```md
+## What is Grav?
+
+```
+
+Then we can answer our question with some information from the [Grav page](http://grav.ds-tutorials.oucreate.com/overview/grav) in this tutorial. Markdown quotes are written using the `NOCLIP >` symbol.
+
+```md
+To quote the Grav documentation:
+
+> Grav is a **Fast**, **Simple**, and **Flexible** file-based Web-platform.
+> 
+
+If you have heard of Wordpress, Grav is very similar. It streamlines website building, allowing users to create their own without requiring previous coding knowledge or experience.
+
+```
+
+To add the fancy blue box with the link to the Grav documentation we can make use of the _Markdown Notices_ plugin that was automatically added when we installed Grav. There are yellow, red, blue, and green notices. The color/type of notice is determined by the number of exclamation points we put before it. Since blue is the third color, we need to use three exclamation points.
+
+```md
+!!! The Grav documentation is very extensive. It is available **[here](https://learn.getgrav.org/16?target=_blank)**.
+
+```
+
+The link at the end is enclosed with asterisks `NOCLIP **` so that it will be displayed with bold text to make it stand out better. The link format is `NOCLIP [text-to-display](url)`. In the link we are adding above, however, the url is `NOCLIP https://learn.getgrav.org/16` - `NOCLIP ?target=_blank` is there to tell browsers to open this link in a new page. This way readers can check out the Grav documentation without leaving the website.
+
+This what the editor will look like when we have added the content above.
+
+![content](grav-content.png)
+
+## Media
+
+Like _Blog_, the _Item_ template supports adding an image as a header.
 
 - We should also add a picture to the post
 - This picture came from Unsplash, as well (hopefully will be replaced by photos that Mom took)

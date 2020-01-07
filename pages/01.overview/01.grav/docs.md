@@ -16,7 +16,7 @@ To quote the Grav documentation:
 
 If you have heard of Wordpress, Grav is very similar. It streamlines website building, allowing users to create their own without requiring previous coding knowledge or experience.
 
-!!! The Grav documentation is very extensive. It is available **[here](https://learn.getgrav.org/16)**.
+!!! The Grav documentation is very extensive. It is available **[here](https://learn.getgrav.org/16?target=_blank)**.
 
 ## Additional Resources
 

@@ -50,6 +50,8 @@ After clicking on the _Plugins_ tab and selecting the _Admin_ plugin, scroll thr
 Remember to click _Save_ when you are finished! -->
 
 
+<!-- Include note about img, png, and jpg? -->
+
 
 Markdown does have a format you can use to include images in your content. It looks like this:
 
