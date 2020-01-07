@@ -1,6 +1,6 @@
 ---
 title: 'Blog Item'
-media_order: 'add-tag.png,added-post.png,added-tags.png,adding-media.png,after-summary-delimiter.png,first-item-content.png,summary-delimiter.png,setting-hero-image.png,item-without-image.png,item-with-image.png'
+media_order: 'add-tag.png,added-post.png,added-tags.png,adding-media.png,after-summary-delimiter.png,summary-delimiter.png,setting-hero-image.png,item-without-image.png,item-with-image.png'
 taxonomy:
     category:
         - docs
@@ -120,14 +120,6 @@ taxonomy:
 - The card is much shorter, as the summary ends as soon as it reaches the delimiter
 
 ![blog page after summary delimiter](after-summary-delimiter.png)
-
-- In the navigation, the page can be seen in the dropdown for Blog.
-- This is not ideal, particularly when you consider how many posts you might want to add.
-- In the Advanced tab, we can set Visible to Disabled.
-- Now the post is hidden. We can do this for all the posts we add.
-- You can also set this option when you create a new post
-- Although does setting a new post to not be visible also disable numeric prefixes?
-- But maybe could show by date instead of prefixes
 
 - screenshot
 
