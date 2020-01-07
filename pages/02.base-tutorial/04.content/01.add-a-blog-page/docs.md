@@ -1,6 +1,6 @@
 ---
-title: 'Add a Blog Page'
-media_order: 'add-page.png,add-page-settings.png,page-editor.png,blog-page-content.png,header-demo.png,blog-config.png,expert-mode.png,result-blog.png,media-resizing.png,page-media.png,added-media.png,hero-image-settings.png,after-adding-media.png'
+title: 'Blog Page'
+media_order: 'add-page.png,add-page-settings.png,page-editor.png,blog-page-content.png,header-demo.png,blog-config.png,expert-mode.png,result-blog.png,media-resizing.png,page-media.png,added-media.png,hero-image-settings.png'
 taxonomy:
     category:
         - docs
@@ -63,45 +63,3 @@ Now we only have _Content_ and _Options_ tabs. On the _Content_ tab, the _Title_
 Since the normal editing mode will be much more useful to us in general, we can go ahead and switch back. If we navigate to our website, it should look like this:
 
 ![resulting website](result-blog.png)
-
-## Adding Media
-
-Markdown does have a format you can use to include images in your content. It looks like this:
-
-```md
-![alt text](image url)
-```
-
-If the media has been added to the page that is using it, the url can simply be the name of the image. Like so:
-
-```md
-![alt text](image.png)
-```
-
-However, some templates will specifically make use of media that is added to the page. _Blog_ is one such template. At the moment, since no media has been added, the page content is displayed on a blank background. If we add an image, that image will be displayed instead.
-
-Before we do that, is is important to keep in mind that the resolution of an image can sometimes cause problems, especially when working with the admin panel. We can prevent these problems by automatically resizing images when we add them. To do this, we will have to configure the _Admin_ plugin.
-
-After clicking on the _Plugins_ tab and selecting the _Admin_ plugin, scroll through the listed configuration options to the _Page Media Image Resizer_ section. There are two boxes we need to modify by replacing the 0 with 2048.
-
-![media resizing](media-resizing.png)
-
-Click _Save_ and go back to the _Blog_ page. At the bottom of the _Content_ section there is a place for page media.
-
-![page media](page-media.png)
-
-<!--The images I use for this tutorial can be found here: TODO - link
-Credit: W. Acker
-Link to specific image used here?-->
-
-When you have added and saved an image, your content editor will show it in the media box.
-
-![image in media box](added-media.png)
-
-Since the image I chose is rather dark, it doesn't make sense to pair it with dark text. Fortunately, if we go back to the Blog Config tab, there is a Hero Section which deals with this type of image and text combination. If you chose a dark picture like I did, you will want to do add the Hero Class _text-light_ as well.
-
-![blog config hero section](hero-image-settings.png)
-
-The page now looks a lot nicer.
-
-![better webpage](after-adding-media.png)
