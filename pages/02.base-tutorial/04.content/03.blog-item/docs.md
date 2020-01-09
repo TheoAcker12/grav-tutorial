@@ -1,6 +1,6 @@
 ---
 title: 'Blog Item'
-media_order: 'add-post.png,navigation-dropdown.png,grav-content.png,adding-media-and-credit.png,setting-hero-image.png,summary-delimiter.png'
+media_order: 'add-post.png,navigation-dropdown.png,grav-content.png,adding-media-and-credit.png,first-tag.png,setting-hero-image.png,summary-delimiter.png'
 taxonomy:
     category:
         - docs
