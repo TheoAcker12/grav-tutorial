@@ -33,7 +33,9 @@ Since the image I chose is rather dark, it does not make sense to pair it with d
 
 The page now looks a lot nicer.
 
+[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog"]
 ![better webpage](after-adding-media.png)
+[/ui-browser]
 
 <!--
 

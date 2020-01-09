@@ -19,9 +19,11 @@ First, we need to choose a theme. We will start by going to the _Themes_ tab on 
 
 ![themes-tab](themes-tab.png)
 
-To see a list of themes we can add, click on the _Add_ button at the top right.
+To see a list of themes we can add, click on the _Add_ button at the top right
 
+[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/admin/themes"]
 ![add theme button](add-theme.png)
+[/ui-browser]
 
 !!! The **[Themes chapter](https://learn.getgrav.org/16/themes)** in the Grav documentation is very technical, but you may want to check out the section on themes in the **[Adminstration Panel chapter](https://learn.getgrav.org/16/admin-panel/themes)**.
 
@@ -43,7 +45,9 @@ Unfortunately, while the Readme for _Quark_ is very helpful, it does not describ
 
 To start with, we will need to go to the _Plugins_ tab on the admin panel and the click the _Add_ button.
 
+[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/admin/plugins"]
 ![add plugin](add-plugins.png)
+[/ui-browser]
 
 Since there are a lot of plugins, it is easiest to search for a plugin you know you want by typing in the name. We will start with the _Archives_ plugin.
 
