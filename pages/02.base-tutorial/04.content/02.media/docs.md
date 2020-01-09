@@ -53,16 +53,3 @@ Remember to click _Save_ when you are finished! -->
 
 
 <!-- Include note about img, png, and jpg? -->
-
-
-Markdown does have a format you can use to include images in your content. It looks like this:
-
-```md
-![alt text](image url)
-```
-
-If the media has been added to the page that is using it, the url can simply be the name of the image. Like so:
-
-```md
-![alt text](image.png)
-```
