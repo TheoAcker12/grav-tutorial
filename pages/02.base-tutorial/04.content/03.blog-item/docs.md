@@ -1,6 +1,5 @@
 ---
 title: 'Blog Item'
-media_order: 'after-summary-delimiter.png,summary-delimiter.png,setting-hero-image.png,item-with-image.png'
 taxonomy:
     category:
         - docs
