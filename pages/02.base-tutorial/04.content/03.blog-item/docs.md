@@ -1,6 +1,6 @@
 ---
 title: 'Blog Item'
-media_order: 'add-post.png,navigation-dropdown.png,grav-content.png,adding-media-and-credit.png,first-tag.png,setting-hero-image.png,summary-delimiter.png,added-tags.png,after-summary-delimiter.png,blog-first-post.png,first-post-image.png,first-post.png'
+media_order: 'add-post.png,navigation-dropdown.png,grav-content.png,adding-media-and-credit.png,first-tag.png,summary-delimiter.png,added-tags.png,after-summary-delimiter.png,blog-first-post.png,first-post.png'
 taxonomy:
     category:
         - docs
@@ -102,7 +102,7 @@ We can click on the post to switch to that page.
 
 Unfortunately, while the image we added shows up on the main blog page, it is not showing up in the post itself. This does seem odd, since the hero image is supposed to default to the first image in the page's media if no image is set, but the reality with working with technology is that we will often encounter odd-seeming situations. There may be perfectly reasonable explanations that we can easily find out, or we may never know for certain why a particular thing does or does not work. That is okay. We will try explicitly defining our hero image.
 
-Since the photo is kind of dark, we could do what we did for our blog page and add the hero class _text-light_. I do not think the white text looks very good with this image, however, so I instead used the class _overlay-light-gradient_ to make the dark text stand out better.
+Since the photo is kind of dark, we could do what we did for our blog page and add the hero class _text-light_. For this and future posts, I am actually going to include three classes: _title-h1h2_, _text-light_, and _overlay-dark-gradient_.
 
 ![setting the hero image](setting-hero-image.png)
 
