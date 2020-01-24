@@ -15,7 +15,7 @@ The other way is to add media to a page with a template that supports showing me
 
 ## Media Used in This Tutorial
 
-The photos I use in this tutorial are available from [Flickr](https://www.flickr.com/photos/53807750@N08/with/49346925923/). You are welcome to download and use these for the tutorial.
+The photos I use in this tutorial are available from [Flickr](https://www.flickr.com/photos/theodwynn/albums/72157712814676952). You are welcome to download and use these for the tutorial.
 
 ## Adding Images
 
